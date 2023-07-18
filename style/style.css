@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif&family=Poppins&display=swap');
 
 * {
     margin: 0;
@@ -113,6 +113,18 @@ body {
     margin-top: 100px;
 }
 
+/* footer section */
+footer {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    padding: 10px 5px;
+    color: #A9A9A9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
 
 
@@ -143,7 +155,7 @@ body {
         width: 100%;
     }
 
-    /* Team section */
+    /* Team section for small */
     .team-container {
         margin-top: 50px;
         gap: 20px;
@@ -181,6 +193,12 @@ body {
 
     .member-6 {
         margin-top: 50px;
+    }
+
+    /* Footer section for small */
+    footer {
+        margin: 0 auto;
+        margin-top: 100px;
     }
 
 }
