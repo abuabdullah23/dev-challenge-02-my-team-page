@@ -142,4 +142,45 @@ body {
     .header-description {
         width: 100%;
     }
+
+    /* Team section */
+    .team-container {
+        margin-top: 50px;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .member {
+        padding: 10px;
+    }
+
+    .designation {
+        top: 104px;
+        right: -100px;
+    }
+
+    .member img {
+        width: 100%;
+    }
+
+    .member-2 {
+        margin-top: 60px;
+    }
+
+    .member-3 {
+        margin-top: -40px;
+    }
+
+    .member-4 {
+        margin-top: 50px;
+    }
+
+    .member-5 {
+        margin-top: -40px;
+    }
+
+    .member-6 {
+        margin-top: 50px;
+    }
+
 }
