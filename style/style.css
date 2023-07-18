@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1440px;
+    max-height: 1080px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+/* common css */
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header css */
+.header-container {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    justify-items: start;
+}
+
+.header-title {
+    width: 50%;
+    font-family: 'PT Serif', serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.62px;
+
+}
+
+.header-title h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-description {
+    width: 50%;
+}
+
+.header-description h4 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.header-description p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Team section css */
+.team-container {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.member {
+    position: relative;
+    padding: 20px;
+}
+
+.designation {
+    position: absolute;
+    top: 112px;
+    right: -95px;
+    rotate: 90deg;
+    font-family: PT Serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: left;
+    width: 200px;
+}
+
+.member h4 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.member img {
+    width: 100%;
+}
+
+.member-2 {
+    margin-top: 100px;
+}
+
+.member-5 {
+    margin-top: 100px;
+}
+
+
+
+
+/* =============== Responsive =============== */
+@media only screen and (max-width:576px) {
+
+    body {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px 25px;
+    }
+
+    /* Header small device */
+    .header-container {
+        flex-direction: column;
+    }
+
+    .header-title {
+        width: 100%;
+    }
+
+    .header-description {
+        width: 100%;
+    }
+}
